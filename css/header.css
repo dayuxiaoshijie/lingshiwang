@@ -1,0 +1,161 @@
+/*顶部开始 */
+#head_top{
+    height:30px;
+    line-height: 30px;
+    background:#f5f5f5;
+}
+/*顶部左边样式*/
+#head_top .h_t_l,
+#head_top .h_t_l a{
+    color: #777;
+}
+#head_top .h_t_l span{
+    margin-right: 5px;
+}
+
+/*顶部导航*/
+#head_top .h_t_r li{
+    float: left;
+    margin-left: 10px;
+    color: #666666;
+}
+/*每一个li标签后面添加一个竖线*/
+#head_top .h_t_r li::after{
+    content: "|";
+}
+#head_top .h_t_r li:last-child:after{
+    content: "";
+}
+#head_top .h_t_r li a{
+    color: #666666;
+    padding-right:10px;
+}
+/*最后一个li标签下面的二级导航，一个微博，一个新浪*/
+#head_top .h_t_r .r_lastli>.r_l_a{
+    display: block;
+    position: relative;
+}
+.wb_nav{
+    position: absolute;
+    background: #fff;
+    top:30px;
+    width: 90px;
+    line-height: 25px;
+    display: none;
+}
+.wb_nav .xlwb,.wb_nav .txwb{
+    width: 10px;
+    height:19px;
+    float: left;
+}
+.wb_nav .xlwb{
+    background: url(../img/little.png) no-repeat 0 -37px;
+}
+.wb_nav .txwb{
+    margin-right:10px;
+    background: url(../img/little.png) no-repeat -22px -37px;
+}
+
+/*头部中间部分开始 logo+搜索框+图片*/
+#head_middle{
+    margin: 20px 0;
+}
+#logo a{
+    display:block;
+    width: 299px;
+    height:70px;
+    background: url(../img/head.png) no-repeat;
+}
+
+/*中间的搜索框开始*/
+#m_search{
+    margin: 20px 20px 0 20px;
+}
+#m_search a{
+    color: #999;
+}
+#m_search .input_info{
+    width: 520px;
+    height:38px;
+    background: url(../img/head.png) no-repeat 0 -74px;
+    margin-bottom: 6px;
+}
+.input_info input{
+    border:0px;
+    background: transparent;
+}
+.input_info #ss_box{
+    width: 415px;
+    height: 37px;
+    text-indent: 30px;
+    display: inline;
+}
+.input_info #ss_btn{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100px;
+    height: 26px;
+}
+
+
+/*中间部分右边的图片样式 */
+#r_pic {
+    margin-top: 20px;
+}
+#r_pic a{
+    display: block;
+    width: 195px;
+    height: 84px;
+    background:url(../img/head.png) 0 -132px no-repeat;
+    margin-right: 32px;
+}
+/*中间部分样式写完 */
+
+/*页面的主导航*/
+/*全部商品菜单开始 */
+#head_bootom{
+    background: #e61952;
+    height:40px;
+    line-height: 40px;
+}
+#head_mauebar .all_class{
+    width:190px;
+    display: block;
+    font-size: 16px;
+    color: white;
+    text-indent: 30px;
+    background:#1d1d1d url(../img/head.png)  no-repeat 140px -245px;
+
+}
+/* 全部商品菜单结束*/
+/*主导航开始*/
+#head_nav li{
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+#head_nav a{
+    display: block;
+    width:85px;
+    color: white;   
+    letter-spacing: 5px;
+}
+#head_nav .active{
+    background: #b1133f;
+}
+/*主菜单结束*/
+/*右侧的通知菜单 */
+#head_info{
+    width: 220px; 
+    height: 39px;
+    background: url(../img/head.png) no-repeat 5px -216px; 
+    overflow: hidden;
+    cursor: pointer;
+}
+#head_info a{
+    display: block;
+    color: #fff;
+    margin-left:30px;
+}

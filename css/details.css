@@ -1,0 +1,157 @@
+#details{
+   background: #faf1f4; 
+}
+/*inner*/
+#details .inner{
+    background: #fff;
+}
+#sp_title{
+    padding:10px;
+    font-size: 13px;
+}
+#sp_title,#sp_title a{
+    color: #666;
+}
+/*商品图片最外层的盒子 */
+/*小放大镜里面的图片*/
+#spic{
+    width: 460px;
+    height:460px;
+}
+#spic img{
+    width:100%;
+}
+/*大放镜盒子*/
+#bf{
+    display: none;
+}
+/*小图下面的列表盒子*/
+/* 列表的盒子定位 */
+#ulist{
+    position: relative;
+    width:450px;
+    height:84px;
+    padding:10px 5px 10px 10px;
+    overflow: hidden;
+}
+/*列表的左右按钮进行切换*/
+#ulist>a{
+    color: #000;
+    font-size: 25px;
+    position: absolute;
+    cursor: pointer;
+}
+/*左边的按钮定位*/
+#left_btn{
+    margin-right:5px;
+    top:48px;
+    left:-3px;
+}
+/*右边的盒子*/
+#right_btn{
+    top:44px;
+    right:0px;
+}
+/*列表浮动*/
+#ulist li{
+    float: left;
+    padding: 7px 2px 2px;
+}
+
+/*更改图片尺寸*/
+#ulist img{
+    width:84px;
+    height: 84px;
+}
+#ulist li>a{
+    display: block;
+    width:84px;
+    height: 84px;width:84px;
+    height: 84px;
+}
+/* 右边的商品信息详情*/
+#sp_name{
+    font-size: 24px;
+    padding: 10px 60px 0 0;
+}
+/*商品价格的大盒子*/
+#sp_info{
+    background: #f9eaee;
+    width:100%;
+    height: 82px;
+    margin: 25px 0 10px;
+}
+#sp_info li{
+    float: left;
+}
+/*商品价格*/
+#sp_info .pirse1{
+    line-height: 82px;
+    color: #e61940;
+    font-size: 32px;
+    text-indent: 20px;
+}
+/*优惠价格样式*/
+#sp_info .pirse2{
+    color: #666;
+    font-size: 14px;
+    margin: 20px 30px 0 20px;
+    line-height: 20px;
+}
+#sp_info .pirse2 span:first-child{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px;
+    margin-right: 5px;
+    background: #f6ab11;
+}
+#sp_info .pirse2 p{
+    color: #999;
+    font-size: 12px;
+}
+/* 商品品号信息、品牌信息、产地、库存等情况*/
+#info_warp p{
+    color: #999;
+    margin:5px 0;
+} 
+#info_warp span,#info_warp a{
+    color: #333;
+}
+/*品牌、产地、重量样式 */
+#info_warp .pinpai{
+    margin:10px 0;
+}
+#info_warp .pinpai p{
+    display: inline;
+    padding:0 30px;
+    border-right: 1px solid #999;
+}
+#info_warp .pinpai p:first-child{
+    padding-left: 0px;
+}
+#info_warp .pinpai p:last-child{
+    border: none;
+}
+/*积分的样式*/
+#info_warp .jifen span{
+    color: #e61940;
+}
+/*库存配送城市*/
+#info_warp  em{
+    color: #999;
+}
+#info_warp .kucun div{
+    display: inline-block;
+}
+#info_warp .kucun .kucun_city{
+    height: 28px; 
+    cursor: pointer;
+    background:url(../img/xpxq/icon-stock.png) no-repeat right -61px;
+}
+.kucun_city #city{
+    line-height: 28px;
+    height: 28px;
+    padding: 0 26px 0 15px;
+    background:url(../img/xpxq/icon-stock.png) no-repeat -142px 0;
+}
