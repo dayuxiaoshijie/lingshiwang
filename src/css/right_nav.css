@@ -1,0 +1,65 @@
+#body_right{
+    width: 35px;
+    height:100%;
+    background: #363636;
+    position: fixed;
+    top: 0;
+    right:0;
+    z-index:999;
+}
+#right_nav{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    background:#000;
+}
+#right_nav li{
+    width: 35px;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 16px;
+    background: url(../img/r_bar.png) -278px bottom no-repeat;
+ }
+ 
+#right_nav a{
+    display:block;
+    color: #999;
+    margin:0 auto;
+    padding: 25px 8px 10px 8px;
+}
+/*购物车按钮*/
+#right_nav .shopping_bag a{ 
+    width: 20px;
+    color: #fff;
+    background: url(../img/r_bar.png) 11px 0 no-repeat;
+}
+#right_nav .shopping_bag span{
+    display: block;
+    border-radius: 20px;
+    background: #d50039;
+    color: #fff;
+    margin: 10px 0;
+    padding: 3px;
+    text-align: center; 
+}
+/*联系客服*/
+#right_nav .nav_service a{
+    background: url(../img/r_bar.png) -61px 0px no-repeat;
+}
+/*投诉*/
+#right_nav .complain a{
+    background: url(../img/r_bar.png) -353px 0px no-repeat;
+}
+/*意见 */
+#right_nav .opinion a{
+    background: url(../img/r_bar.png) -433px 0px no-repeat;
+}
+#right_nav .ewm{
+    padding-top: 0;
+}
+#right_nav .ewm a{
+    background: url(../img/r_bar.png) -134px 10px no-repeat;
+}
+#right_nav .back_top a{
+    background: url(../img/r_bar.png) -204px 10px no-repeat;
+}

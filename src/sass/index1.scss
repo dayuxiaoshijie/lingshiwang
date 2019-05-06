@@ -1,0 +1,240 @@
+@charset "utf-8";
+//banner的图样式
+$banner_height:445px;
+$bg:pink;
+#banner{
+    height:$banner_height;
+    background: $bg;
+}
+
+#content{
+    padding-top: 35px;
+}
+//主内容所有的a样式
+#content a{ 
+    display: block;
+    color: #333;
+}
+#content li{
+    float: left;
+}
+//每个部分最外面盒子的margin值
+$box_margin:10px 0 20px 0;
+//每个盒子的背景颜色
+$box-_bg:#fff;
+//标题盒子的样式
+$title_height:30px;
+.box_ttile{
+    height:$title_height;
+}
+//每块标题用到的背景图的地址
+$h3_bg:url(../img/head.png) no-repeat;
+$h3_width:229px;//每个盒子标题的宽度
+$h3_height: 27px;//每个盒子标题的高度
+.box_ttile{
+    h3{
+        display: block;
+        width: $h3_width;
+        height:$h3_height;
+    }
+}
+//每日秒杀的背景图定位
+#everday_sha{
+    margin: $box_margin;
+    .box_ttile{
+        h3{
+            background:$h3_bg 0px -344px; 
+        }
+    }
+}
+//每日秒杀li的样式
+$everyli_width:210px;
+$everyli_height:190px;
+$everyli_margin:0 5px;
+.miaosha_nav{
+    height:428px;
+    background:#fcda4f url(../img/content/1444984132628305427.png)no-repeat bottom;
+    .nav_left{//这是左边的盒子
+        width: 309px;
+        height: 428px;
+        background:pink;
+    }
+    .nav_right{//右边的盒子
+        width: 891px;
+        text-align: center;
+        padding-top: 10px;
+        li{
+            float: left;
+            width: $everyli_width;
+            height: $everyli_height;
+            margin: $everyli_margin;
+            list-style: none;
+            text-align: center;
+            border: 1px solid pink;
+        }
+    }
+}
+
+//促销优惠样式
+$all_li_width:299px;
+$all_li_height:289px;
+$all_li_border:1px #ccc solid;
+#cxyh{
+    margin:$box_margin ;
+    .box_ttile{
+        h3{
+            background:$h3_bg 0px -379px; 
+        }
+        a{
+            width: 80px;
+            height: 15px;
+            background:url(../img/head.png) no-repeat 0 -447px;
+        }
+    }
+    .cx_nav{//促销优惠下面的li标签
+        background: $box-_bg;
+        ul{
+            li{
+                height: $all_li_height;
+                width: $all_li_width;
+            }
+        }
+        
+    }
+
+}
+// 热门推荐
+#rmtj{
+    margin: $box_margin;
+    .box_ttile{
+        h3{
+            background:$h3_bg 0 -412px;
+        } 
+    }
+    .rm_nav{
+        background: $box-_bg;
+        li{
+            height: $all_li_height;
+            width: $all_li_width;  
+        }
+    }
+
+}
+//广告图
+.bg_banner{
+    margin: $box_margin;
+    img{
+        float: left;
+        width: 399px;
+        height: 150px;
+    }
+}
+//小广告图
+$gg_banner_height:90px;
+.gg_banner{
+    height: $gg_banner_height;
+}
+//商品分类楼层的公共样式
+$f_h3_height:36px;
+$f_h3_line_height:36px;
+$f_h3_size:22px;
+$f_h3_weight:700;
+$f_a_margin_left:10px;
+$f_a_padding:3px 6px;
+$f_img_width:240px;
+$f_img_height:430px;
+//饼干类
+#cookie_page{
+    margin: $box_margin;
+    .box_ttile{
+        height:$f_h3_height ;
+        line-height: $f_h3_line_height;
+        h3{
+            font-size: $f_h3_size;
+            font-weight: $f_h3_weight;
+        }
+        a{
+            margin-left: $f_a_margin_left;
+            padding: $f_a_padding;
+        }   
+    }
+    .cookie_nav{
+        background: $box-_bg;
+        img{
+            width: $f_img_width;
+            height:$f_img_height;
+        }
+    }
+    
+}
+//肉类
+#meet_page{
+    margin: $box_margin;
+    .box_ttile{
+        height:$f_h3_height ;
+        line-height: $f_h3_line_height;
+        h3{
+            font-size: $f_h3_size;
+            font-weight: $f_h3_weight;
+        }
+        a{
+            margin-left: $f_a_margin_left;
+            padding: $f_a_padding;
+        }
+    }
+    .meet_nav{
+          background: $box-_bg;
+        img{
+            width: $f_img_width;
+            height:$f_img_height;
+        }
+    }
+}
+
+//糖果类
+#candy_page{
+    margin: $box_margin;
+    .box_ttile{
+        height:$f_h3_height ;
+        line-height: $f_h3_line_height;
+        h3{
+            font-size: $f_h3_size;
+            font-weight: $f_h3_weight;
+        }
+        a{
+            margin-left: $f_a_margin_left;
+            padding: $f_a_padding;
+        }
+    }
+    .candy_nav{
+          background: $box-_bg;
+        img{
+            width: $f_img_width;
+            height:$f_img_height;
+        }
+    }
+}
+//底部的banner
+
+//品牌推荐
+#pptj{
+    margin: $box_margin;
+    .box_ttile{
+        height:$f_h3_height ;
+        line-height: $f_h3_line_height;
+        h3{
+            font-size: $f_h3_size;
+            font-weight: $f_h3_weight;
+        }
+    }
+    ul{
+        background: $box-_bg;
+        li{
+            width: 132px;
+            height: 80px;
+            text-align: center;
+            border: $all_li_border;
+            
+        }
+    }
+}

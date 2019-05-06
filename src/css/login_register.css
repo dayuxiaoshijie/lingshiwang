@@ -1,0 +1,121 @@
+#login_in,#register{
+    width: 360px;
+    background: #fff;
+    margin: 20px auto;
+    display: none;
+}
+/*登录/注册标题样式*/
+.dl_title{
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #e61952;
+    position: relative;
+    color: #777;
+    letter-spacing: 5px;
+    text-indent: 10px;
+}
+/*登录/注册页面关闭按钮*/
+.dl_title a{
+    width: 16px;
+    height: 16px;
+    color: #888;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    background: url(../img/login/close.png) no-repeat
+}
+/*登陆页密码表单/注册表单*/
+#dl_info,#hzwz,#zc_info{
+    width: 314px;
+    margin:10px auto;
+    padding-left:15px;
+    color: #a6a6a6;
+}
+#dl_info,#zc_info{
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #888;
+}
+/*input公用样式 */
+#login_in,#register input{
+    margin: 25px 0;
+}
+/*用户名和密码样式*/
+#usermame,#password,
+#user_mame,#pass_word,#okpassword
+{
+    display: block;
+    border: 1px solid #bfbfbf;
+    width: 300px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    text-indent: 10px;  
+}
+/*复选框和span样式*/
+
+/*忘记密码和用户注册按钮 */
+#wj_pasword{
+    display: inline-block;
+    margin-left:30px;
+    color:#a6a6a6;
+}
+/*登录/注册按钮样式*/
+#login_btn,#register_btn{
+    display: block;
+    background: url(../img/login/login.jpg) no-repeat 0 -46px;
+    cursor: pointer;
+    border: none;
+    width: 301px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+/*其他登录信息，登录和注册一样*/
+#hzwz p{
+    text-align: left;
+    margin: 10px 0;
+}
+/**/
+#hzwz a{
+    display:inline-block;
+    color: #a6a6a6;
+    margin:5px 5px 0 0;
+    padding:0 10px 0 23px;
+    height: 22px;
+    line-height: 22px;
+}
+.xlwb{
+    background: url(../img/login/icon_login.png) no-repeat 0 -1px; 
+}
+.qq{
+    background: url(../img/login/icon_login.png) no-repeat 0 -31px; 
+}
+.wy{
+    background: url(../img/login/icon_login.png) no-repeat 0 -62px; 
+}
+.zfb{
+    background: url(../img/login/icon_login.png) no-repeat 0 -94px; 
+}
+.wx{
+    background: url(../img/login/icon_login.png) no-repeat 0 -127px; 
+}
+.zgyd{
+    background: url(../img/login/icon_login.png) no-repeat 0 -163px; 
+}
+.bd{
+    background: url(../img/login/icon_login.png) no-repeat 0 -200px; 
+}
+.xl{
+    background: url(../img/login/icon_login.png) no-repeat 0 -231px; 
+}
+
+/*注册页面样式*/
+#zc_info p{
+    text-align: right;
+    margin-right: 5px;
+}

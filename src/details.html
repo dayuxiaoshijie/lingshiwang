@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/details.css">
+</head>
+
+<body>
+    <div id="details">
+        <div class="inner clear">
+            <!--商品标题：位置+商品介绍-->
+            <div id="sp_title">
+                <span>当前位置></span>
+                <a href="#">首页></a>
+                <a href="#">巧克力/糖果></a>
+                <a href="#">果冻布丁></a>
+                <a href="#">顽皮兔妙乐滋优酪果冻黄桃味*500g 约6个</a>
+            </div>
+            <!--商品详情信息 -->
+            <div id="sp_details" class="clear">
+                <!--左边是图片信息列表，右边是商品信息 -->
+                <div class="left">
+                    <!--小图盒子-->
+                    <div id="spic">
+                        <img src="img/xpxq/13003_a1.JPG" alt="">
+                        <!--小放大镜盒子-->
+                        <div id="sf"></div>
+                    </div>
+                    <!--大放大镜，和小放一样大，在小放里面显示，要定位-->
+                    <div id="bf">
+                        <img src="img/xpxq/13003_a1.JPG" alt="" id="bpic">
+                    </div>
+                    <!--图片详情列表-->
+                    <div id="ulist">
+                        <a href="javascript:;" id="left_btn">&lt;</a>
+                        <div id="list">
+                            <ul>
+                                <li><a href="#"><img src="img/xpxq/13003_a1.JPG" alt=""></a></li>
+                                <li><a href="#"><img src="img/xpxq/13003_P_1524277270327.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/xpxq/13003_a4.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/xpxq/13003_thumb_P_1524277192469.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/xpxq/13003_thumb_P_1524277192585.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/xpxq/13003_thumb_P_1524277192469.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/xpxq/13003_thumb_P_1524277192585.jpg" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <a href="javascript:;" id="right_btn">&gt;</a>
+                    </div>
+                </div>
+                <!--商品价格、抢购时间、优惠价格 -->
+                <div id="sp_info_box">
+                    <h3 id="sp_name">顽皮兔妙乐滋优酪果冻黄桃味*500g 约6个</h3>
+                    <!--商品价格 -->
+                    <div id="sp_info">
+                        <ul>
+                            <li class="pirse1"><span id="prise">￥10.80</span></li>
+                            <!---->
+                            <li class="pirse2">
+                                <span>限时促销</span>为您节省<span id="yh_prise">￥14.2</span>
+                                <p>(市场价￥25.00)</p>
+                            </li>
+                            <!--倒计时盒子-->
+                            <li class="timeer">
+                                <div>
+
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--商品品号信息、品牌信息、产地、库存等情况 -->
+                <div id="info_warp">
+                    <p>编号： <span>02081332</span></p>
+                    <div class="pinpai">
+                        <p>
+                            品牌：<a href="">顽皮兔</a>
+                        </p>
+                        <p>
+                            产地：<a href="">浙江</a>
+                        </p>
+                        <p>
+                            净含量： <span>560克</span>
+                        </p>
+                    </div>
+                    <p class="jifen">积分：<span>10分</span></p>
+                    <!--库存和选择配送城市 -->
+                    <div class="kucun">
+                        <em>库存：</em> 
+                        <span>送至</span>
+                        <div class="kucun_city"> 
+                            <div id="city">广东(下架)</div>
+                            <div class="city_nav"></div>
+                        </div>
+                        <span>该商品暂时下架</span>
+                    </div>
+                    <div >
+                        <em>数量：</em>
+                        <div class="kucun_num">
+                            <!--减号按钮 -->
+                            <a href="javascript:;" id="downnum">-</a>
+                            <!--需要的数量 -->
+                            <input type="text" id="number" value="1">
+                            <!--加号按钮 -->
+                            <a href="javascript:;" id="addnum">+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/thirdplugins/jquery.js"></script>
+    <script>
+        $('.header').load("header.html");
+        $('.footer').load("footer.html");
+        $('.r_bar').load("right_nav.html");
+    </script>
+</body>
+
+</html>
